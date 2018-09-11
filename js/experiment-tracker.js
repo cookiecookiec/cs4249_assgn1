@@ -37,10 +37,11 @@ class ExperimentTracker {
 	stopTimer() {
 		
 		this.endTime = Date.now();
-		var t = (this.endTime-this.startTime) / 1000;
+		var t = (this.endTime-this.startTime) / 1000;			
 		this.trials.push([this.trial, this.attempt, this.menuType, this.menuDepth, this.targetItem, this.selectedItem, t, this.clicks])
 		this.resetTimers();
 		this.attempt++;
+		this.clicks = 0;
 
 	}
 
