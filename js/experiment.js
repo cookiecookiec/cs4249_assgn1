@@ -40,12 +40,12 @@ function initExperiment() {
 
 	// Get Trails
 	var data = getData(trialsFile);
-	console.log("hello");
+	//console.log("hello");
 	var records = data.split("\n");
 	numTrials = records.length - 1;
 	for (var i = 1; i <= numTrials; i++) {
 		var cells = records[i].split(",");
-		console.log(cells);
+		//console.log(cells);
 		var menuType = cells[0].trim();
 		var menuDepth = cells[1].trim();
 		var targetItem = cells[2].trim();
