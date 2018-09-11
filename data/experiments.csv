@@ -1,13 +1,7 @@
-Menu Type,Interaction Type,Menu Depth,Target Item
-Marking,Mouse,1,Clothing
-Marking,Mouse,2,Hats
-Marking,Mouse,3,Jeans
-Marking,Touch Board,1,Clothing
-Marking,Touch Board,2,Hats
-Marking,Touch Board,3,Jeans
-Radial,Mouse,1,Clothing
-Radial,Mouse,2,Hats
-Radial,Mouse,3,Jeans
-Radial,Touch Board,1,Clothing
-Radial,Touch Board,2,Hats
-Radial,Touch Board,3,Jeans
+Menu Type,Menu Depth,Target Item
+Marking,1,Clothing
+Marking,2,Hats
+Marking,3,Jeans
+Radial,1,Clothing
+Radial,2,Hats
+Radial,3,Jeans
