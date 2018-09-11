@@ -296,7 +296,7 @@ function toggleRadialMenu(e) {
 		
 			// Start timing once menu appears
 			tracker.startTimer();
-			tracker.addClicks();
+			//tracker.addClicks();
 		}
 	}else{
 		
@@ -311,7 +311,7 @@ function toggleRadialMenu(e) {
 	
 		// Start timing once menu appears
 		tracker.startTimer();
-		tracker.addClicks();
+		//tracker.addClicks();
 		}
 	}
 	e.preventDefault();
@@ -320,7 +320,7 @@ function toggleRadialMenu(e) {
 //Callback for radialmenu when a leaf node is selected
 function radialMenuOnSelect() {
 
-	tracker.addClicks();
+	//tracker.addClicks();
 	
 	tracker.recordSelectedItem(this.id);
 	var radialmenu = document.getElementById('radialmenu');
