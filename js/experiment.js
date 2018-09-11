@@ -46,12 +46,10 @@ function initExperiment() {
 	for (var i = 1; i <= numTrials; i++) {
 		var cells = records[i].split(",");
 		var menuType = cells[0].trim();
-		//var interactionType = cells[1].trim();
 		var menuDepth = cells[1].trim();
 		var targetItem = cells[2].trim();
 		trialsData[i] = {
 			'Menu Type': menuType,
-			//'Interaction Type': interactionType,
 			'Menu Depth': menuDepth,
 			'Target Item': targetItem
 		};
@@ -88,13 +86,11 @@ function nextTrial() {
 	if (currentTrial <= numTrials) {
 
 		var menuType = trialsData[currentTrial]['Menu Type'];
-		//var interactionType = trialsData[currentTrial]['Interaction Type'];
 		var menuDepth = trialsData[currentTrial]['Menu Depth'];
 		var targetItem = trialsData[currentTrial]['Target Item'];
 
 		document.getElementById("trialNumber").innerHTML = String(currentTrial) + "/" + String(numTrials);
 		document.getElementById("menuType").innerHTML = menuType;
-		//document.getElementById("interactionType").innerHTML = interactionType;
 		document.getElementById("menuDepth").innerHTML = menuDepth;
 		document.getElementById("targetItem").innerHTML = targetItem;
 		document.getElementById("selectedItem").innerHTML = "&nbsp;";
@@ -103,7 +99,6 @@ function nextTrial() {
 		tracker.newTrial();
 		tracker.trial = currentTrial;
 		tracker.menuType = menuType;
-		//tracker.interactionType = interactionType;
 		tracker.menuDepth = menuDepth;
 		tracker.targetItem = targetItem;
 
@@ -216,7 +211,6 @@ function formatMarkingMenuData(data) {
 function markingMenuOnMouseDown(){
 
 	tracker.startTimer();
-	tracker.addClicks();
 }
 
 //Function to start tracking timer on mouse down
@@ -259,7 +253,6 @@ function initializeRadialMenu(){
 // Create radial menu svg element
 function createRadialMenu(radialMenuL){
 	
-	
     var radialmenuElement = document.getElementById('radialmenu');
     if(radialmenuElement != null){
     	radialmenuElement.parentNode.removeChild(radialmenuElement);
@@ -290,7 +283,6 @@ function toggleRadialMenu(e) {
 		
 			// Start timing once menu appears
 			tracker.startTimer();
-			tracker.addClicks();
 		}
 	}else{
 		
@@ -305,7 +297,6 @@ function toggleRadialMenu(e) {
 	
 		// Start timing once menu appears
 		tracker.startTimer();
-		tracker.addClicks();
 		}
 	}
 	e.preventDefault();
@@ -313,7 +304,7 @@ function toggleRadialMenu(e) {
 
 //Callback for radialmenu when a leaf node is selected
 function radialMenuOnSelect() {
-	tracker.addClicks();
+
 	tracker.recordSelectedItem(this.id);
 	var radialmenu = document.getElementById('radialmenu');
 	radialmenu.parentNode.removeChild(radialmenu);
