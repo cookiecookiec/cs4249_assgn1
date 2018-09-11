@@ -40,7 +40,7 @@ function initExperiment() {
 
 	// Get Trails
 	var data = getData(trialsFile);
-
+	console.log("hello");
 	var records = data.split("\n");
 	numTrials = records.length - 1;
 	for (var i = 1; i <= numTrials; i++) {
