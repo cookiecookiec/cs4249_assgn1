@@ -47,8 +47,8 @@ function initExperiment() {
 		var cells = records[i].split(",");
 		var menuType = cells[0].trim();
 		//var interactionType = cells[1].trim();
-		var menuDepth = cells[2].trim();
-		var targetItem = cells[3].trim();
+		var menuDepth = cells[1].trim();
+		var targetItem = cells[2].trim();
 		trialsData[i] = {
 			'Menu Type': menuType,
 			//'Interaction Type': interactionType,
