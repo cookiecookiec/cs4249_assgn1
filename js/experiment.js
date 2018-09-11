@@ -259,7 +259,7 @@ function initializeRadialMenu(){
 
 // Create radial menu svg element
 function createRadialMenu(radialMenuL){
-	
+	tracker.addClicks();
     var radialmenuElement = document.getElementById('radialmenu');
     if(radialmenuElement != null){
     	radialmenuElement.parentNode.removeChild(radialmenuElement);
