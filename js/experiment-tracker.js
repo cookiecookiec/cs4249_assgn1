@@ -42,7 +42,6 @@ class ExperimentTracker {
 		this.trials.push([this.trial, this.attempt, this.menuType, this.interactionType, this.menuDepth, this.targetItem, this.selectedItem, t, this.clicks])
 		this.resetTimers();
 		this.attempt++;
-		this.clicks = 0;
 
 	}
 
