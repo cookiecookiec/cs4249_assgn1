@@ -252,9 +252,15 @@ function initializeRadialMenu(){
 	var interactionContainer = document.getElementById('interaction-container');
 	var radialMenuContainer = document.getElementById('radial-menu-container');
 	if(radialMenuContainer == null){
-		interactionContainer.innerHTML += "<div id=\"radial-menu-container\" style=\"height:100%;width:100%\" oncontextmenu=\"toggleRadialMenu(event)\"></div>";
+		interactionContainer.innerHTML += "<div id=\"radial-menu-container\" style=\"height:100%;width:100%\" onmousedown=\"radialMenuOnMouseDown()\" oncontextmenu=\"toggleRadialMenu(event)\"></div>";
 	}
 
+}
+
+// Function to add clicks on mouse down
+function radialMenuOnMouseDown(){
+
+	tracker.addClicks();
 }
 
 // Create radial menu svg element
