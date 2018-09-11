@@ -211,6 +211,7 @@ function formatMarkingMenuData(data) {
 function markingMenuOnMouseDown(){
 
 	tracker.startTimer();
+	tracker.addClicks();
 }
 
 //Function to start tracking timer on mouse down
@@ -253,6 +254,7 @@ function initializeRadialMenu(){
 // Create radial menu svg element
 function createRadialMenu(radialMenuL){
 	
+	
     var radialmenuElement = document.getElementById('radialmenu');
     if(radialmenuElement != null){
     	radialmenuElement.parentNode.removeChild(radialmenuElement);
@@ -283,6 +285,7 @@ function toggleRadialMenu(e) {
 		
 			// Start timing once menu appears
 			tracker.startTimer();
+			tracker.addClicks();
 		}
 	}else{
 		
@@ -297,6 +300,7 @@ function toggleRadialMenu(e) {
 	
 		// Start timing once menu appears
 		tracker.startTimer();
+		tracker.addClicks();
 		}
 	}
 	e.preventDefault();
@@ -304,7 +308,7 @@ function toggleRadialMenu(e) {
 
 //Callback for radialmenu when a leaf node is selected
 function radialMenuOnSelect() {
-
+	tracker.addClicks();
 	tracker.recordSelectedItem(this.id);
 	var radialmenu = document.getElementById('radialmenu');
 	radialmenu.parentNode.removeChild(radialmenu);
