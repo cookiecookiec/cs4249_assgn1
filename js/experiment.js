@@ -46,12 +46,12 @@ function initExperiment() {
 	for (var i = 1; i <= numTrials; i++) {
 		var cells = records[i].split(",");
 		var menuType = cells[0].trim();
-		var interactionType = cells[1].trim();
+		//var interactionType = cells[1].trim();
 		var menuDepth = cells[2].trim();
 		var targetItem = cells[3].trim();
 		trialsData[i] = {
 			'Menu Type': menuType,
-			'Interaction Type': interactionType,
+			//'Interaction Type': interactionType,
 			'Menu Depth': menuDepth,
 			'Target Item': targetItem
 		};
@@ -88,13 +88,13 @@ function nextTrial() {
 	if (currentTrial <= numTrials) {
 
 		var menuType = trialsData[currentTrial]['Menu Type'];
-		var interactionType = trialsData[currentTrial]['Interaction Type'];
+		//var interactionType = trialsData[currentTrial]['Interaction Type'];
 		var menuDepth = trialsData[currentTrial]['Menu Depth'];
 		var targetItem = trialsData[currentTrial]['Target Item'];
 
 		document.getElementById("trialNumber").innerHTML = String(currentTrial) + "/" + String(numTrials);
 		document.getElementById("menuType").innerHTML = menuType;
-		document.getElementById("interactionType").innerHTML = interactionType;
+		//document.getElementById("interactionType").innerHTML = interactionType;
 		document.getElementById("menuDepth").innerHTML = menuDepth;
 		document.getElementById("targetItem").innerHTML = targetItem;
 		document.getElementById("selectedItem").innerHTML = "&nbsp;";
@@ -103,7 +103,7 @@ function nextTrial() {
 		tracker.newTrial();
 		tracker.trial = currentTrial;
 		tracker.menuType = menuType;
-		tracker.interactionType = interactionType;
+		//tracker.interactionType = interactionType;
 		tracker.menuDepth = menuDepth;
 		tracker.targetItem = targetItem;
 
