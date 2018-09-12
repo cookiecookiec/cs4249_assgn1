@@ -39,5 +39,5 @@ My work and modification:</br>
     </br>
 7. Log:</br>
  * I change the log format into the following format:</br>
-![image](https://github.com/cookiecookiec/hci_assgn1/blob/master/example_csv_format.png)</br>
+![image](https://github.com/cookiecookiec/hci_assgn1/raw/master/example_csv_format.png)</br>
 Thanks!</br>
