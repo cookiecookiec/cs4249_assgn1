@@ -37,4 +37,7 @@ My work and modification:</br>
  * Add onmousedown=\"radialMenuOnMouseDown()\" to the interactionContainer.innerHTML in radial menu to use the new function.</br>
  * Add codes to pass user id, interaction type and clicks to the tracker in different places.</br>
     </br>
+7. Log:</br>
+ * I change the log format into the following format:</br>
+![](https://github.com/cookiecookiec/hci_assgn1/example_csv_format.png)</br>
 Thanks!</br>
