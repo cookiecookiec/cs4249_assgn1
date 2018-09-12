@@ -13,7 +13,7 @@ My work and modification:</br>
 2. Add index.html to enable git page.</br>
 </br>
 3. experiment.html</br>
-  Adjust the UI.</br>
+ * Adjust the UI.</br>
 >Make column 3 to be my new IV: Interaction Type - Mouse or Touch Board</br>
 >Make column 4 to be Menu Depth. This can make users easier to take the test. They can use mouse for a while and then change to touch board. If menu depth is IV2 and Interaction Type is IV3, then users have to click on mouse for one condition and change to touch board for the second very soon. This may annoy the experiment users.</br>
     </br>
