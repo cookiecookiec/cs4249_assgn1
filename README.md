@@ -40,4 +40,5 @@ My work and modification:</br>
 7. Log:</br>
  * I change the log format into the following format:</br>
 ![image](https://github.com/cookiecookiec/hci_assgn1/raw/master/example_csv_format.png)</br>
+ * I add user id, interaction type, the time calculated and the number of clicks to the csv. Therefore, the log csv file can be easier to understand and use.</br>
 Thanks!</br>
