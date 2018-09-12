@@ -113,6 +113,7 @@ function nextTrial() {
 
 		tracker.newTrial();
 		tracker.trial = currentTrial;
+		tracker.userId = userId;
 		tracker.menuType = menuType;
 		tracker.menuDepth = menuDepth;
 		tracker.targetItem = targetItem;
