@@ -3,7 +3,7 @@
 You can access my webpage by URL:</br>
 https://cookiecookiec.github.io/cs4249_assgn1/experiment.html?id=1</br>
 Change the "id" number for different participants' arrangements. id ranges from 1 to 8.</br>
-User id is collected by parsing the url.
+User id is collected by parsing the url.</br>
 </br>
 Generally, my new Independant Variable is Interaction Type - Mouse or Touch Board.</br>
 My new measure is the effective clicks rate. I count the number of times user clicks during the selection process. Users may select wrong answers and redo the selection, which results in a larger number of clicks. The rate of desired clicks / total clicks can be used to judge whether the menu selection method is good to use.</br>
