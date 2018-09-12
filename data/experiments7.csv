@@ -1,0 +1,37 @@
+Menu Type,Menu Depth,Target Item,Interaction Type
+Radial,1,Animals,Mouse
+Radial,1,Food,Mouse
+Radial,1,Clothing,Mouse
+Radial,2,Fish,Mouse
+Radial,2,Fruit,Mouse
+Radial,2,Bottoms,Mouse
+Radial,3,Goldfish,Mouse
+Radial,3,Orange,Mouse
+Radial,3,Jeans,Mouse
+Radial,1,Food,Touch Board
+Radial,1,Clothing,Touch Board
+Radial,1,Animals,Touch Board
+Radial,2,Vegetables,Touch Board
+Radial,2,Birds,Touch Board
+Radial,2,Shoes,Touch Board
+Radial,3,Potatoes,Touch Board
+Radial,3,Owl,Touch Board
+Radial,3,Boots,Touch Board
+Marking,1,Food,Mouse
+Marking,1,Continents,Mouse
+Marking,1,Clothing,Mouse
+Marking,2,Meat,Mouse
+Marking,2,Europe,Mouse
+Marking,2,Hats,Mouse
+Marking,3,Beef,Mouse
+Marking,3,T-Shirt,Mouse
+Marking,3,England,Mouse
+Marking,1,Food,Touch Board
+Marking,1,Clothing,Touch Board
+Marking,1,Animals,Touch Board
+Marking,2,Dairy,Touch Board
+Marking,2,America,Touch Board
+Marking,2,Shoes,Touch Board
+Marking,3,USA,Touch Board
+Marking,3,Milk,Touch Board
+Marking,3,Pineapple,Touch Board
