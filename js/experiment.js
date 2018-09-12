@@ -1,5 +1,8 @@
 'use strict';
 
+var userId = GetQueryString("id"); 
+console.log(userId);
+
 // Location of data files
 const trialsFile = "./data/experiments.csv"
 const menuL1File = "./data/menu_depth_1.csv"
