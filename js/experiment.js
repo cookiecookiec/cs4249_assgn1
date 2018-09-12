@@ -1,7 +1,5 @@
 'use strict';
 
-var userId = GetQueryString("id"); 
-console.log(userId);
 
 // Location of data files
 const trialsFile = "./data/experiments.csv"
@@ -25,6 +23,8 @@ var tracker = new ExperimentTracker();
 var markingMenuSubscription = null;
 var radialMenuSvg = null;
 
+var userId = GetQueryString("id"); 
+console.log(userId);
 
 
 
