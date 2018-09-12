@@ -48,7 +48,8 @@ function getData(relativePath) {
 function initExperiment() {
 
 	// Get Trails
-	var data = getData(trialsFile);
+	var trialsFileId = "./data/experiments" ++ userId ++".csv";
+	var data = getData(trialsFileId);
 	//console.log("hello");
 	var records = data.split("\n");
 	numTrials = records.length - 1;
