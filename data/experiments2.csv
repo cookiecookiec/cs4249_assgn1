@@ -1,0 +1,13 @@
+Menu Type,Menu Depth,Target Item,Interaction Type
+Marking,1,Clothing,Mouse
+Marking,2,Hats,Mouse
+Marking,3,Jeans,Mouse
+Marking,1,Animals,Touch Board
+Marking,2,Birds,Touch Board
+Marking,3,Owl,Touch Board
+Radial,1,Clothing,Mouse
+Radial,2,Hats,Mouse
+Radial,3,Jeans,Mouse
+Radial,1,Animals,Touch Board
+Radial,2,Birds,Touch Board
+Radial,3,Owl,Touch Board
