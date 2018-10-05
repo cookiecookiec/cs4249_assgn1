@@ -1,7 +1,7 @@
 # Phenomena and Theories of HCI Assignment 1</br>
 </br>
 You can access my webpage by URL:</br>
-https://cookiecookiec.github.io/cs4249_assgn1/experiment.html?id=1</br>
+https://cookiecookiec.github.io/hci_assgn1/experiment.html?id=1</br>
 Change the "id" number for different participants' arrangements. id ranges from 1 to 8.</br>
 User id is collected by parsing the url.</br>
 </br>
